@@ -1,0 +1,66 @@
+body
+{
+	background-color: #171b21;
+	color: #fafdfd;
+	margin: 0 !important;	
+}
+
+#container
+{
+	width: 1200px;	
+	margin-left: auto;
+	margin-right: auto;		
+	margin-top: 50px;	
+}	
+
+#clocks
+{
+	width: 100%;	
+	text-align: center;	
+}
+
+.clock
+{
+	width: 50%;	
+	float: left;
+	position: relative;		
+}
+
+.arrow
+{
+	position: absolute;
+	height: 550px;
+	width: 20px;
+	left: 50%;
+	margin-left: -10px;
+	top: 20px;
+	transition: all 1000ms;	
+}
+
+.value
+{
+    position: absolute;	
+	left: 50%;
+	width: 60px;
+	font-size: 28px;
+	margin-left: -30px;
+	top: 70%;
+}
+
+.pointer
+{
+	position: absolute;
+	width: 28px;
+	left: 50%;
+	margin-left: -14px;	
+	bottom: 6px;	
+	transition: all 1000ms;
+}
+
+
+
+
+
+
+
+
